@@ -1,0 +1,6 @@
+# /etc/acpi/events/lid
+# this is called when lid is opened / closed and calls
+# /etc/acpi/actions/lid.sh for further processing
+
+event=button/lid
+action=/etc/acpi/actions/lid.sh
